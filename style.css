@@ -281,11 +281,11 @@ nav{
     animation-timing-function: linear; 
 }
 @keyframes amazon-slideshow {
-    0%{background-image: url("slide 1.png");}
-    25%{background-image: url("slide 2.png");}
-    50%{background-image: url("slide 3.png");}
-    75%{background-image: url("slide 4.png");}
-    100%{background-image: url("slide 5.png");}
+    0%{background-image: url("images/slide 1.png");}
+    25%{background-image: url("images/slide 2.png");}
+    50%{background-image: url("images/slide 3.png");}
+    75%{background-image: url("images/slide 4.png");}
+    100%{background-image: url("images/slide 5.png");}
 }
 
 .prev-arrow, .next-arrow{
