@@ -267,25 +267,13 @@ nav{
 /* slider */
 
 .slider{
-    /* background-image: url("slide 1.png"); */
+    background-image: url("images/slide 1.png");
     background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
-    animation-name: amazon-slideshow;
-    animation-direction: normal;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-@keyframes amazon-slideshow {
-    0%{background-image: url("images/slide 1.png");}
-    25%{background-image: url("images/slide 2.png");}
-    50%{background-image: url("images/slide 3.png");}
-    75%{background-image: url("images/slide 4.png");}
-    100%{background-image: url("images/slide 5.png");}
+    align-items: center; 
 }
 
 .prev-arrow, .next-arrow{
